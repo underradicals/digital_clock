@@ -1,0 +1,28 @@
+.number span:nth-child(13) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border: 16px solid var(--bg-dark);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    width: 0;
+    height: 0;
+}
+
+.number span:nth-child(14) {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    background-color: var(--bg-dark);
+    width: 100%;
+}
+
+.number span:nth-child(15) {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    border: 16px solid var(--bg-dark);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 0;
+    height: 0;
+}

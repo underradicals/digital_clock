@@ -1,0 +1,24 @@
+:root,
+[data-theme="light"] {
+    --bg-dark: rgb(2 6 23);
+    --bg-major: rgb(248 250 252);
+    --bg-background: #eee;
+    --bg-secondary: rgb(203 213 225);
+    --tc-primary: black;
+    --tc-secondary: rgb(248 250 252);
+    --bg-theme-change: blue;
+    --bsx-main: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+[data-theme="dark"] {
+    --bg-dark: rgb(248 250 252);
+    --bg-major: rgb(2 6 23);
+    --bg-background: #242424;
+    --tc-primary: rgb(248 250 252);
+    --tc-secondary: black;
+    --bg-theme-change: yellow;
+    --bsx-main: rgba(168, 181, 190, 0.3) 0px 1px 2px 0px,
+        rgba(197, 209, 218, 0.15) 0px 1px 3px 1px;
+}
